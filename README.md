@@ -21,13 +21,34 @@
 
 ## 📸 System Showcase
 
+<div align="center">
+  <img src="frontend/public/logo.png" alt="OfferLens AI Icon" width="160" />
+</div>
+
 ### 1. Authentication & Security Gateway
 *Secure access portal featuring modern glassmorphism and integrated security controls.*
 
-![OfferLens Login](frontend/public/logo.png)
+![Authentication Gateway](frontend/public/login_page.png)
 
 ### 2. Security Operations Dashboard
 *Live KPI tracking, severity distribution donuts, and recent investigations activity.*
+
+![Security Operations Dashboard](frontend/public/dashboard_overview.png)
+
+### 3. Investigation Scanner & Risk Engine
+*Detailed risk scoring, scam flag extraction, and automated safety verdicts.*
+
+![Investigation Scanner](frontend/public/investigation_scanner.png)
+
+### 4. Real-Time Fraud Alerts & Triage Management
+*Direct database-synced alert tracking with state toggling (`New` / `Investigating` / `Resolved`).*
+
+![Fraud Alerts Management](frontend/public/fraud_alerts.png)
+
+### 5. Automated Real-Time Email Dispatch
+*Instant email dispatch notifying the user when high-risk threats are identified.*
+
+![Automated Incident Email Alert](frontend/public/email_alert.png)
 
 ---
 
@@ -47,7 +68,6 @@ OfferLensAI/
     │   ├── FraudAlerts.jsx  # Synced SOC alert management system
     │   └── ...              # Threat intelligence & analytics modules
     └── package.json         # Node.js dependencies
-
 
 🚀 Quick Start Guide
 Prerequisites
