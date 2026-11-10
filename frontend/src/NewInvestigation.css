@@ -1,0 +1,285 @@
+.investigation-page {
+  padding: 10px 0;
+  color: #f5f3ff;
+}
+
+.investigation-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.investigation-heading h1 {
+  font-size: 25px;
+  margin-bottom: 9px;
+}
+
+.investigation-heading p {
+  color: #9690ad;
+  font-size: 12px;
+}
+
+.secure-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: #17352f;
+  color: #4de0aa;
+  font-size: 11px;
+}
+
+.investigation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.investigation-card {
+  background: #131220;
+  border: 1px solid #302844;
+  border-radius: 13px;
+  padding: 23px;
+  min-width: 0;
+}
+
+.card-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  margin-bottom: 23px;
+}
+
+.card-heading > svg {
+  color: #a77aff;
+  flex-shrink: 0;
+}
+
+.card-heading h3 {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.card-heading p {
+  color: #9690ad;
+  font-size: 11px;
+}
+
+.upload-area {
+  min-height: 190px;
+  border: 1.5px dashed #6948a9;
+  border-radius: 10px;
+  background: #1a1729;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  padding: 15px;
+}
+
+.upload-area svg {
+  color: #a77aff;
+  margin-bottom: 15px;
+}
+
+.upload-area h3 {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.upload-area p {
+  color: #a77aff;
+  font-size: 11px;
+  margin-bottom: 13px;
+}
+
+.upload-area span {
+  color: #827c99;
+  font-size: 10px;
+}
+
+.selected-file {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+  padding: 12px;
+  background: #211c32;
+  border-radius: 8px;
+  font-size: 11px;
+  min-width: 0;
+}
+
+.selected-file span {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+.selected-file svg {
+  color: #a77aff;
+}
+
+.selected-file button {
+  background: none;
+  border: none;
+  color: #aaa;
+}
+
+.investigation-card label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 12px;
+  color: #c5bfd8;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #1b1929;
+  border: 1px solid #39314d;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+.input-box svg {
+  color: #a77aff;
+  flex-shrink: 0;
+}
+
+.input-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  width: 100%;
+  min-width: 0;
+  font-size: 12px;
+}
+
+.input-box input::placeholder {
+  color: #716b86;
+}
+
+.input-hint {
+  color: #827c99;
+  font-size: 10px;
+  margin-top: 13px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.investigation-card textarea {
+  width: 100%;
+  min-height: 170px;
+  resize: vertical;
+  background: #1b1929;
+  border: 1px solid #39314d;
+  border-radius: 9px;
+  padding: 16px;
+  color: white;
+  font-family: inherit;
+  font-size: 12px;
+  outline: none;
+}
+
+.investigation-card textarea:focus,
+.input-box:focus-within {
+  border-color: #9560f5;
+}
+
+.investigation-card textarea::placeholder {
+  color: #77718d;
+}
+
+.textarea-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  color: #827c99;
+  font-size: 10px;
+}
+
+.analysis-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 23px;
+  padding: 20px;
+  background: #171426;
+  border: 1px solid #302844;
+  border-radius: 12px;
+}
+
+.analysis-action div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #aaa4bd;
+  font-size: 11px;
+}
+
+.analysis-action div svg {
+  color: #4de0aa;
+}
+
+.analysis-action button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #8755f7, #6038bd);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 22px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.analysis-action button:hover {
+  opacity: 0.85;
+}
+
+.analysis-message {
+  margin-top: 18px;
+  padding: 16px;
+  border-radius: 9px;
+  background: #211c32;
+  border: 1px solid #6948a9;
+  color: #d4c5ff;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+@media (max-width: 750px) {
+  .investigation-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .full-width {
+    grid-column: auto;
+  }
+
+  .investigation-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .analysis-action {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .analysis-action button {
+    width: 100%;
+  }
+}
