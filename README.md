@@ -74,3 +74,12 @@ Prerequisites
     Node.js (v18.0 or higher)
     Python (v3.10 or higher)
     Git
+---
+
+## 👥 Engineering Team & Project Creators
+
+- **AVS Bharat Chowdary** — *core Backend development* 
+- **Matam Naga Lasya Sri** — *UI/UX Design & Frontend Development*
+- **Gousiya Kouser** — *Security Analysis*
+- **Bishal Baniya** - *Tester*
+- **Likitha r** - *Backend Engineering*
